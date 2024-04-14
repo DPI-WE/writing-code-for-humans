@@ -79,7 +79,7 @@ This refactored version makes several improvements:
 - The syntax and grammar of the programming language.
   - Incorrect. Syntax and grammar are fundamental aspects that should be known without requiring comments.
 - The logic and algorithms used in the code.
-- Not exactly. While sometimes necessary, comments are better used for explaining the rationale behind the logic.
+  - Not exactly. While sometimes necessary, comments are better used for explaining the rationale behind the logic.
 - The purpose of the code and why certain decisions were made.
   - Correct! Comments are most valuable when they provide context that the code alone cannot, such as why specific decisions were made.
 - Detailed descriptions of each line of code.
