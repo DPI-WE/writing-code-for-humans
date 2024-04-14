@@ -140,7 +140,7 @@ def process_transactions(transactions)
   # transactions.each { |t| puts t.debug }
 end
 ```
-- Identify any code smells in the snippet and suggest improvements
+- Identify any code smells in the above snippet and suggest improvements
 - The method contains a commented-out line of code.
   - Correct. Commented-out code can lead to confusion and should be removed.
 - The comment explains a temporary fix but does not indicate when or why it should be replaced.
