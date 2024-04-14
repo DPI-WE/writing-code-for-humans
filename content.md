@@ -99,6 +99,58 @@ This refactored version makes several improvements:
 - Documentation is not necessary if the code is self-explanatory.
 {: .choose_best #documentation_timing title="When to Integrate Documentation" points="1" answer="3" }
 
+```ruby
+def calc(d, t)
+  t.reduce(0) { |sum, num| sum + num } / d.size
+end
+```
+- What improvements can be made to the code above to enhance its readability?
+- Rename calc to calculate_average.
+  - Correct. This name clearly describes what the function does.
+- Rename d to data and t to totals.
+  - Correct. More descriptive variable names make the code easier to understand.
+- Add comments to describe what calc, d, and t represent.
+  - This would help, but renaming variables and functions is generally more effective for clarity.
+- No changes needed; the code is clear as it is.
+  - Not quite. The function and variable names are too vague and could be more descriptive.
+{: .choose_all #code_clarity_improvement title="Improving Code Clarity" points="2" answer="[1, 2]" }
+
+```ruby
+# Updates user status
+def update_status(user, status)
+  user.status = status
+  user.save!
+end
+```
+- Evaluate the effectiveness of the comment in the code snippet above
+- The comment is necessary and adds value.
+  - Incorrect. The method name update_status already explains what the code does; the comment is redundant.
+- The comment should explain why the status needs to be updated, not what the code does.
+  - Correct. Comments should provide insights into the 'why' rather than the 'what', which should be clear from the code itself.
+- The comment should be removed because it is redundant.
+  - Correct. Since the code is self-explanatory, the comment does not add any additional value.
+- The method should be commented out for clarity.
+  - Incorrect. Commenting out the method would prevent it from being executed and does not improve clarity.
+{: .choose_best #comment_usage title="Evaluating Comment Effectiveness" points="1" answer="3" }
+
+```ruby
+def process_transactions(transactions)
+  # Temporary fix for bug in transaction processing
+  transactions.each { |t| puts t.process }
+  # transactions.each { |t| puts t.debug }
+end
+```
+- Identify any code smells in the snippet and suggest improvements
+- The method contains a commented-out line of code.
+  - Correct. Commented-out code can lead to confusion and should be removed.
+- The comment explains a temporary fix but does not indicate when or why it should be replaced.
+  - Correct. Comments about temporary fixes should include information on the conditions or timeline for replacing them.
+- The method name process_transactions should be more descriptive.
+  - Incorrect. The method name appropriately describes the action being performed.
+- No issues; the code follows best practices.
+  - Incorrect. The presence of commented-out code and inadequate comments on temporary fixes are issues that need addressing.
+{: .choose_all #code_smells title="Identifying Code Smells" points="2" answer="[1, 2]" }
+
 ## Conclusion
 Writing code for humans is an essential skill in software development. By ensuring that your code is clear, well-documented, and maintainable, you not only make life easier for other developers but also enhance the overall quality and longevity of your software. Embrace these practices to become a better coder, collaborator and teammate.
 
