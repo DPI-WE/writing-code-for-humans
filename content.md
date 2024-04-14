@@ -131,7 +131,7 @@ end
   - Correct. Since the code is self-explanatory, the comment does not add any additional value.
 - The method should be commented out for clarity.
   - Incorrect. Commenting out the method would prevent it from being executed and does not improve clarity.
-{: .choose_best #comment_usage title="Evaluating Comment Effectiveness" points="1" answer="3" }
+{: .choose_all #comment_usage title="Evaluating Comment Effectiveness" points="1" answer="[2,3]" }
 
 ```ruby
 def process_transactions(transactions)
