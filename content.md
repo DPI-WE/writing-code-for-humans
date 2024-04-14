@@ -63,6 +63,42 @@ This refactored version makes several improvements:
 - **Method and Variable Names**: The method and variable names are more descriptive. `filter_items_greater_than_first` clearly describes what the method does, and `first_item` and `remaining_items` are self-explanatory.
 - **Comments**: A comment is added to explain the purpose of the method, which is to filter and return elements greater than the first element of the array. This helps anyone reading the code to quickly understand the method's intent without needing to parse through the code logic.
 
+## Quiz
+- What is the main purpose of using descriptive and clear names in your code?
+- To make the code look more professional.
+- To help the code compile without errors.
+- To make the code easier to read and understand for anyone who works with it.
+- To reduce the need for comments and documentation.
+{: .choose_best #purpose_of_names title="Purpose of Descriptive Names" points="1" answer="3" }
+
+- According to the lesson, what should comments in code primarily explain?
+- The syntax and grammar of the programming language.
+- The logic and algorithms used in the code.
+- The purpose of the code and why certain decisions were made.
+- Detailed descriptions of each line of code.
+{: .choose_best #role_of_comments title="Primary Role of Comments" points="1" answer="3" }
+
+- Why should commented-out code be avoided in a codebase?
+- It makes the code run slower.
+- It can confuse and clutter the code, making maintenance harder.
+- It is required by most modern programming languages.
+- It helps in debugging and should be kept for future use.
+{: .choose_best #commented_out_code title="Avoiding Commented-Out Code" points="1" answer="2" }
+
+- What does refactoring primarily aim to improve in a poorly documented or complex piece of code?
+- The execution speed of the code.
+- The readability and maintainability of the code.
+- The number of lines of code.
+- The programming language used in the code.
+{: .choose_best #aim_of_refactoring title="Aim of Refactoring" points="1" answer="2" }
+
+- When should documentation be integrated into the development process?
+- Only at the end of the project before delivery.
+- As an afterthought when the code is complete.
+- At the beginning and throughout the development process.
+- Documentation is not necessary if the code is self-explanatory.
+{: .choose_best #documentation_timing title="When to Integrate Documentation" points="1" answer="3" }
+
 ## Conclusion
 Writing code for humans is an essential skill in software development. By ensuring that your code is clear, well-documented, and maintainable, you not only make life easier for other developers but also enhance the overall quality and longevity of your software. Embrace these practices to become a better coder, collaborator and teammate.
 
