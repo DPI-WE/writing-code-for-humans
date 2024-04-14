@@ -66,37 +66,57 @@ This refactored version makes several improvements:
 ## Quiz
 - What is the main purpose of using descriptive and clear names in your code?
 - To make the code look more professional.
+  - Not quite. While professional appearance is a bonus, it's not the primary reason for using descriptive names.
 - To help the code compile without errors.
+  - Incorrect. Descriptive names don't influence the compilation process; they're about readability and maintainability.
 - To make the code easier to read and understand for anyone who works with it.
+  - Correct! Descriptive names improve the readability of the code, making it easier for others (and future you) to understand and maintain.
 - To reduce the need for comments and documentation.
+  - Somewhat true, but not the main purpose. Descriptive names can reduce the need for some comments, but they complement rather than replace good documentation.
 {: .choose_best #purpose_of_names title="Purpose of Descriptive Names" points="1" answer="3" }
 
-- According to the lesson, what should comments in code primarily explain?
+- What should comments in code primarily explain?
 - The syntax and grammar of the programming language.
+  - Incorrect. Syntax and grammar are fundamental aspects that should be known without requiring comments.
 - The logic and algorithms used in the code.
+- Not exactly. While sometimes necessary, comments are better used for explaining the rationale behind the logic.
 - The purpose of the code and why certain decisions were made.
+  - Correct! Comments are most valuable when they provide context that the code alone cannot, such as why specific decisions were made.
 - Detailed descriptions of each line of code.
+  - Incorrect. This often clutters the code. Comments should be used sparingly and only when they add significant value.
 {: .choose_best #role_of_comments title="Primary Role of Comments" points="1" answer="3" }
 
 - Why should commented-out code be avoided in a codebase?
 - It makes the code run slower.
+  - Incorrect. Commented-out code doesn't affect runtime, but it can clutter the codebase and confuse other developers.
 - It can confuse and clutter the code, making maintenance harder.
+  - Correct! Commented-out code can lead to confusion and should be removed or managed through version control.
 - It is required by most modern programming languages.
+  - Incorrect. No programming language requires commented-out code; it is generally considered a bad practice.
 - It helps in debugging and should be kept for future use.
+  - Incorrect. While it might seem helpful at the moment, version control systems are a better way to manage code history for debugging.
 {: .choose_best #commented_out_code title="Avoiding Commented-Out Code" points="1" answer="2" }
 
 - What does refactoring primarily aim to improve in a poorly documented or complex piece of code?
 - The execution speed of the code.
+  - Incorrect. Refactoring primarily aims to make code cleaner and more maintainable, not necessarily faster.
 - The readability and maintainability of the code.
+  - Correct! Refactoring improves the structure and clarity of the code, making it easier to read and maintain.
 - The number of lines of code.
+  - Incorrect. Reducing lines of code can be a byproduct, but it's not the primary goal of refactoring.
 - The programming language used in the code.
+  - Incorrect. Refactoring doesn't involve changing the programming language; it involves improving the existing code within the same language.
 {: .choose_best #aim_of_refactoring title="Aim of Refactoring" points="1" answer="2" }
 
 - When should documentation be integrated into the development process?
 - Only at the end of the project before delivery.
+  - Incorrect. Waiting until the end to document can lead to gaps and inaccuracies in the documentation.
 - As an afterthought when the code is complete.
+  - Incorrect. Documentation should be an integral part of the development process, not an afterthought.
 - At the beginning and throughout the development process.
+  - Correct! Integrating documentation from the start and maintaining it throughout the project ensures it grows with the code and remains accurate.
 - Documentation is not necessary if the code is self-explanatory.
+  - Incorrect. Even if code is self-explanatory, documentation is essential for providing context, especially for larger projects or public APIs.
 {: .choose_best #documentation_timing title="When to Integrate Documentation" points="1" answer="3" }
 
 ```ruby
