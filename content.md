@@ -1,6 +1,8 @@
 # Writing Code for Humans 🚶
 In the vast landscape of software development, it's crucial to remember that code is primarily written for humans to read and secondarily for machines to execute. This lesson explores strategies to enhance code readability and maintainability, ensuring that it communicates its intention clearly not only to the computers but also to human developers.
 
+![](./assets/cat.jpeg)
+
 ## It's All Writing
 Just as in any form of writing, clarity and precision are vital in code. Writing code should be treated with the same care as writing in a natural language. Consider these principles:
 
