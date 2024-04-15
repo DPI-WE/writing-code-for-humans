@@ -30,7 +30,7 @@ Avoid certain practices that can indicate deeper problems in the code base, know
 ## Exercise: Refactoring for Readability
 Given a piece of complex and poorly documented Ruby code, we'll refactor it to enhance its readability and maintainability.
 
-### Before Refactoring:
+### Before Refactoring
 ```ruby
 # Bad example: What does this method do?
 def process_items(arr)
